@@ -8,7 +8,7 @@ import {
 import LogForm from './components/LogForm';
 import LogList from './components/LogList';
 import Chart from './components/Chart';
-import { submitLog, getLogs, updateLog, deleteLog, getAnalytics, exportData, importData } from './api.js';
+import { submitLog, getLogs, updateLog, deleteLog, getAnalytics, exportData, importData } from './services/api.js';
 
 function App() {
   const [logs, setLogs] = useState([]);
