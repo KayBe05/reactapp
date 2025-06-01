@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import { 
   Plus, Clock, Tag, Zap, Sparkles, Code2, AlertCircle, 
   CheckCircle2, Target, BookOpen, Users, Search, FileText, 
-  Ship, Wrench, Lightbulb, ArrowRight, Magic, X, 
+  Ship, Wrench, Lightbulb, ArrowRight,  X, 
   Timer, Hash, ChevronDown, ChevronUp, Wand2
 } from 'lucide-react';
 
@@ -211,7 +211,7 @@ const LogForm = ({ onSubmit, isLoading }) => {
         <div className="mb-6 p-4 bg-gradient-to-r from-purple-50 to-blue-50 rounded-lg border border-purple-200 animate-slideInDown">
           <div className="flex items-center justify-between mb-3">
             <h3 className="font-medium text-gray-800 flex items-center">
-              <Magic size={16} className="mr-2 text-purple-600" />
+              <Wand2 size={16} className="mr-2 text-purple-600" />
               Quick Fill Examples
             </h3>
             <button
